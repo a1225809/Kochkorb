@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/activity_layout"
+    android:background="@drawable/hintergrund">
+    <TableLayout
+        android:id="@+id/TabelleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:id="@+id/Tabelle1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="170dp"
+                android:layout_weight="1"
+                android:id="@+id/button_obst"
+                android:background="@drawable/obst_1"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="170dp"
+                android:layout_weight="1"
+                android:id="@+id/button_gemuese"
+                android:background="@drawable/gemuese_1"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Tabelle2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="170dp"
+                android:layout_weight="1"
+                android:id="@+id/button_fleisch"
+                android:background="@drawable/fleisch_1"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="170dp"
+                android:layout_weight="1"
+                android:id="@+id/button_teigwaren"
+                android:background="@drawable/teigware_1"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Tabelle3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Weiter"
+                android:id="@+id/button_auswahl"
+                android:layout_margin="1dp"
+                android:textSize="30dp"
+                android:background="#fff" />
+
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

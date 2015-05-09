@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/hintergrund"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <TableRow>
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:id="@+id/button_suppen"
+
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:background="@drawable/vorspeise" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:id="@+id/button_hauptspeise"
+
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:background="@drawable/hauptspeise" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:id="@+id/button_dessert"
+
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:background="@drawable/dessert" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seraycetin.kochkorb" >
+
+    <application
+        android:name="Datenbank"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Gemuese" android:launchMode="singleTop"/>
+        <activity android:name=".Obst" android:launchMode="singleTop"/>
+        <activity android:name=".Teigwaren" android:launchMode="singleTop"/>
+        <activity android:name=".Fleisch" android:launchMode="singleTop"/>
+        <activity android:name=".Auswahl"/>
+        <activity android:name=".Auswahl_Hauptspeisen"/>
+        <activity android:name=".Auswahl_Dessert"/>
+        <activity android:name=".Auswahl_Suppen"/>
+
+    </application>
+
+</manifest>
